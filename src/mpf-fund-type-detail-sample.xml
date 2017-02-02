@@ -1,0 +1,266 @@
+<div class="dashed-box pad15 clearfix dragger-table">
+  <div class="fixed-col">
+    <table>
+      <thead>
+        <tr>
+          <th id="leftH0" style="height: 21px;">
+            <div class="width1">
+              Fund Type
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="leftH1" style="height: 20px;">
+            Equity Fund
+          </th>
+        </tr>
+        <tr>
+          <th id="leftH2" style="height: 20px;">
+            Mixed Assets Fund
+          </th>
+        </tr>
+        <tr>
+          <th id="leftH3" style="height: 20px;">
+            Bond Fund
+          </th>
+        </tr>
+        <tr>
+          <th id="leftH4" style="height: 20px;">
+            Guaranteed Fund
+          </th>
+        </tr>
+        <tr>
+          <th id="leftH5" style="height: 20px;">
+            MPF Conservative Fund
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="scroll-table scroll-pane ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="overflow: hidden;">
+    <table class="scroll-content">
+      <thead>
+        <tr>
+          <td id="rightH0">
+            <div class="width2">
+              Other Commonly Used Name(s)
+            </div>
+          </td>
+          <td>
+            <div class="width3">
+              Investment Objective
+            </div>
+          </td>
+          <td>
+            <div class="width4">
+              Investment Instruments
+            </div>
+          </td>
+          <td>
+            <div class="width5">
+              Risk Level
+            </div>
+          </td>
+          <td>
+            <div class="width6">
+              Major Risks
+            </div>
+          </td>
+          <td>
+            <div class="width7">
+              Fees &amp; Charges
+            </div>
+          </td>
+          <td>
+            <div class="width8">
+              Features/ Points to Note
+            </div>
+          </td>
+          <td>
+            <div class="width9">
+              Potential  Suitability
+            </div>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="rightH1">
+            -
+          </td>
+          <td>
+            To achieve capital appreciation and a return higher than inflation over the long term
+          </td>
+          <td>
+            Stocks
+          </td>
+          <td>
+            Relatively high 
+          </td>
+          <td>
+            Stock market volatility, exchange rate fluctuation and the overall condition of listed companies
+          </td>
+          <td>
+            The fee is generally a percentage of the fund’s net asset value.
+          </td>
+          <td>
+            <ol class="disc">
+              <li>
+                There are usually three types of Equity Funds: single market, regional market or global market.
+              </li>
+              <li>
+                They invest mainly in stocks listed on stock exchanges approved by the MPFA. 
+              </li>
+            </ol>
+          </td>
+          <td>
+            Young scheme members with a longer investment horizon and a higher risk tolerance level; other risk tolerant scheme members
+          </td>
+        </tr>
+        <tr>
+          <td id="rightH2">
+            Stable Fund, Balanced Fund, Life-Cycle Fund, Growth Fund
+          </td>
+          <td>
+            To achieve capital appreciation over the long term through investing in a combination of stocks and bonds
+          </td>
+          <td>
+            Stocks and bonds
+          </td>
+          <td>
+            Medium to high
+          </td>
+          <td>
+            Stock market volatility,  interest rate fluctuation, exchange rate fluctuation, and bond credit ratings
+          </td>
+          <td>
+            The fee is generally a percentage of the fund’s net asset value.
+          </td>
+          <td>
+            <ol class="disc">
+              <li>
+                Different Mixed Assets Funds have different proportions of stocks and bonds. In general, a greater proportion of stocks is associated with higher risk.
+              </li>
+            </ol>
+          </td>
+          <td>
+            Scheme members may adjust the proportion of stocks to bonds in their portfolios at different life stages.
+          </td>
+        </tr>
+        <tr>
+          <td id="rightH3">
+            Fixed Income Fund
+          </td>
+          <td>
+            To earn a stable income from interest and bond coupon rates, and make profits from bond trading
+          </td>
+          <td>
+            Bonds
+          </td>
+          <td>
+            Low to medium
+          </td>
+          <td>
+            Fluctuation in interest rates, exchange rates and bond credit ratings
+          </td>
+          <td>
+            The fee is generally a percentage of the fund’s net asset value.
+          </td>
+          <td>
+            <ol class="disc">
+              <li>
+                The bonds must meet the minimum credit rating or listing requirements prescribed by the MPFA.
+              </li>
+            </ol>
+          </td>
+          <td>
+            Moderately conservative scheme members with a low-risk appetite, and those seeking a stable return over the medium-to-long term
+          </td>
+        </tr>
+        <tr>
+          <td id="rightH4">
+            -
+          </td>
+          <td>
+            To provide a guarantee on the capital invested, or to achieve a guaranteed rate of return 
+          </td>
+          <td>
+            Bonds, stocks or short-term, interest- bearing, money market instruments 
+          </td>
+          <td>
+            Relatively low (but it also depends on whether the guarantee conditions can be met when the MPF is withdrawn)
+          </td>
+          <td>
+            The guaranteed rate of return may be modified with prior notice; the credit risk of the related insurance company (if holding an insurance policy); guarantor risk
+          </td>
+          <td>
+            The guarantor usually charges a guarantee fee or reserve fee, in addition to the basic fees and charges typical of other MPF funds.
+          </td>
+          <td>
+            <ol class="disc">
+              <li>
+                There are two major types of guarantees:  capital guarantee or return guarantee.
+              </li>
+              <li>
+                To qualify for the guarantee, all guarantee conditions, such as minimum investment period and withdrawal requirements, must be met (scheme members must read the terms and conditions of the individual fund carefully).
+              </li>
+            </ol>
+          </td>
+          <td>
+            Risk averse scheme members, especially those close to retirement who  are willing to abide by the guarantee conditions
+          </td>
+        </tr>
+        <tr>
+          <td id="rightH5">
+            -
+          </td>
+          <td>
+            To earn a rate of return similar to the Hong Kong Dollar savings rate
+          </td>
+          <td>
+            Short-term bank deposits  and short-term bonds
+          </td>
+          <td>
+            Relatively low
+          </td>
+          <td>
+            Fluctuation  in interest rates
+          </td>
+          <td>
+            No administrative fees can be charged by trustees if the return in a particular month is lower than or equal to the MPFA’s prescribed savings rate for that month.
+          </td>
+          <td>
+            <ol class="disc">
+              <li>
+                The law requires that all MPF schemes offer an MPF Conservative Fund.
+              </li>
+              <li>
+                MPF Conservative Funds are low-risk funds, but their return may not beat inflation and may even be negative.
+              </li>
+              <li>
+                MPF Conservative Funds are a type of Money Market Fund and are generally described as a Money Market Fund in the Fund Fact Sheet issued by trustees.
+              </li>
+            </ol>
+          </td>
+          <td>
+            Conservative, risk averse scheme members, especially those close to retirement
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;">
+    </span>
+  </div>
+  <div class="scroll-bar-wrap ui-widget-content ui-corner-bottom">
+    <div class="scroll-bar ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+      <div class="ui-handle-helper-parent">
+        <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;">
+          <span class="ui-icon ui-icon-grip-dotted-vertical">
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
