@@ -1,5 +1,6 @@
 package mpfcompare.rest;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import javax.ws.rs.GET;
@@ -7,8 +8,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+
 import mpfcompare.rest.model.FundTypeDetail;
 import mpfcompare.rest.model.ProxySetting;
+import mpfcompare.util.MpfWebScrapper;
 
 @Path("/mpf")
 public class MpfResource {
@@ -21,14 +25,14 @@ public class MpfResource {
 		ProxySetting setting = new ProxySetting();
 		setting.setProxy("proxy");
 		setting.setPort(8080);
-//		MpfWebScrapper scrapper = new MpfWebScrapper();
+		MpfWebScrapper scrapper = new MpfWebScrapper();
 		
 		ArrayList<FundTypeDetail> scrapFundTypeDetail = new ArrayList<>();
-//		try {
-//			scrapFundTypeDetail = scrapper.scrapFundTypeDetail(true, setting);
-//		} catch (FailingHttpStatusCodeException | IOException e) {
-//			e.printStackTrace();
-//		}
+		try {
+			scrapFundTypeDetail = scrapper.scrapFundTypeDetail(true, setting);
+		} catch (FailingHttpStatusCodeException | IOException e) {
+			e.printStackTrace();
+		}
 		
 		return scrapFundTypeDetail;
 	}

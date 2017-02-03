@@ -17,8 +17,8 @@ import com.gargoylesoftware.htmlunit.html.HtmlTableCell;
 import com.gargoylesoftware.htmlunit.html.HtmlTableHeader;
 import com.gargoylesoftware.htmlunit.html.HtmlTableRow;
 
-import mpfcompare.cfg.ProxySetting;
 import mpfcompare.rest.model.FundTypeDetail;
+import mpfcompare.rest.model.ProxySetting;
 
 
 public class MpfWebScrapper {

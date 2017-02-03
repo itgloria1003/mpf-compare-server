@@ -1,4 +1,4 @@
-package mpfcompare.cfg;
+package mpfcompare.rest.model;
 
 public class ProxySetting {
 	private String login; 
